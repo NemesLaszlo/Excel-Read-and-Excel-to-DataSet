@@ -27,7 +27,7 @@ namespace ExcelReadTest
             // Example to check and get the Table name into a variable
             if (DataSet.Tables.Contains("Sheet1"))
             {
-                string name = DataSet.Tables["Munka1"].TableName;
+                string name = DataSet.Tables["Sheet1"].TableName;
                 Console.WriteLine("First Sheet name: " + name);
             }
 
